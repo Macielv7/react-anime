@@ -1,7 +1,9 @@
 import axios from "axios"
 import { useState } from "react";
+import './index.css'
 
-export default function index() {
+
+export default function Index() {
 
     const [cor, setCor] = useState('');
     const [resposta, setResposta] = useState ('');
@@ -16,8 +18,11 @@ export default function index() {
        }
 
     }
+
+    
+
     return(
-        <main>
+        <main className="tudo">
             <h1>COR PRIMARIA</h1>
 
             <div> 
